@@ -41,6 +41,14 @@
             android:name=".MainActivity9"
             android:label="MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".MainActivity10"
+            android:label="MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".MainActivity11"
+            android:label="MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

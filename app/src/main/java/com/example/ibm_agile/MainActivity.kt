@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     private val CHANNEL_ID: String = "IBMagileTestNotification";
 
     public fun clicked(view: View) {
-        var i = Intent(this, com.example.ibm_agile.MainActivity2::class.java)
+        var i = Intent(this, com.example.ibm_agile.MainActivity11::class.java)
         startActivity(i)
         finish()
     }
