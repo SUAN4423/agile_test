@@ -17,7 +17,7 @@ class MainActivity7 : AppCompatActivity() {
     }
 
     private val runnable = Runnable {
-        if (Random.nextInt(2) == 0) {
+        if (Random.nextBoolean()) {
             var i = Intent(applicationContext, com.example.ibm_agile.MainActivity8::class.java)
             startActivity(i)
             finish()
